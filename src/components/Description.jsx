@@ -16,7 +16,7 @@ const useStyles = makeStyles({
             objectFit:'cover',
             clipPath:'circle(40% at 50% 50%)',
         },
-        ['@media (max-width:650px)']:{
+        ['@media (max-width:650px)']:{ // eslint-disable-line no-useless-computed-key
             gridTemplateColumns:'1fr'
         }
     },
@@ -40,7 +40,7 @@ const useStyles = makeStyles({
             fontWeight:'300',
             fontSize:'1.7rem'
         },
-        ['@media (max-width:650px)']:{
+        ['@media (max-width:650px)']:{ // eslint-disable-line no-useless-computed-key
             padding:'0px 10px'
         }
     },
@@ -66,7 +66,7 @@ const Description = () => {
     return (
         <div className={classes.description}>
             <div>
-            <video src={video} autoPlay muted loop />
+            <video src={video} autoPlay muted loop preload="metadata"/>
             </div>
             <div className={classes.information}>
                 <h1>Connect your business to Internet</h1>
