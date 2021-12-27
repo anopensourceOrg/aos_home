@@ -14,6 +14,7 @@ const useStyles = makeStyles({
             fontWeight: 300,
             letterSpacing: '2px',
             fontSize:'2.3rem',
+            fontFamily: `'Dancing Script', cursive`,
             ['@media (max-width:650px)']: { // eslint-disable-line no-useless-computed-key
                 fontSize:'2rem',
                 marginLeft:'10px'
@@ -29,6 +30,7 @@ const useStyles = makeStyles({
             listStyle: 'none',
             padding:'2px 10px',
             fontWeight:'600',
+            transitionDuration:'200ms',
             '&:hover':{
                 color:'#FFBD35',
                 cursor:'pointer',
