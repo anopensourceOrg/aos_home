@@ -8,6 +8,10 @@ import React, { useState, useEffect } from 'react';
 import Services from './components/Services';
 import Products from './components/Products';
 import Title from './components/Title';
+import About from './components/About';
+import Developers from './components/Developers';
+import Footer from "./components/Footer";
+import Event from './components/Event';
 
 const floatingNav = {
   position: 'sticky',
@@ -53,6 +57,13 @@ function App() {
       </ImageContainer>
 
       <Products />
+
+      <About />
+
+      <Developers/>
+
+      <Event/>
+      <Footer/>
     </div>
   );
 }

@@ -90,10 +90,10 @@ const Navbar = React.forwardRef((props,ref) => {
                 </button>
             </div>
             <ul className={classes.navigation}>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Events</li>
-                <li>Contact Us</li>
+                <a href="#"><li>Home</li></a>
+                <a href="#about"><li>About Us</li></a>
+                <a href="#event"><li>Events</li></a>
+                <a href="#contact"><li>Contact Us</li></a>
             </ul>
         </div>
     )

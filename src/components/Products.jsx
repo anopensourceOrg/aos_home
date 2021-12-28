@@ -12,7 +12,13 @@ const useStyles = makeStyles({
         flexDirection: ({ reverse }) => `${reverse ? 'row-reverse' : 'row'}`,
         justifyContent: 'space-between',
         alignItems: 'center',
-        margin: '20px 0px'
+        margin: '20px 0px',
+        overflow:'none',
+        ['@media (max-width:650px)']:{ // eslint-disable-line no-useless-computed-key
+            display:"grid",
+            gridTemplateColumns:"1fr",
+            gridGap:"10px"
+        }
     },
     borderRadius: '20px',
     image: {
@@ -21,14 +27,17 @@ const useStyles = makeStyles({
             borderRadius: '20px',
             maxHeight: '200px',
             objectFit: 'cover',
-            margin: '0px 10px'
-        }
+            margin: '0px 10px',
+        },
     },
     text: {
         textAlign: 'left',
         margin: '0px 10px',
         '& p': {
             fontSize: '1.2rem'
+        },
+        ['@media (max-width:650px)']:{ // eslint-disable-line no-useless-computed-key
+            marginBottom:'10px'
         }
     },
     title: {
@@ -90,11 +99,11 @@ const Products = () => {
                         return (
                             (
                                 ind % 2 ?
-                                    <Slide left>
-                                        <ProductCard reverse={ind % 2} title={elem.title} description={elem.description} image={elem.image} key={elem.key} />
+                                    <Slide left  key={elem.key}>
+                                        <ProductCard reverse={ind % 2} title={elem.title} description={elem.description} image={elem.image} />
                                     </Slide> :
-                                    <Slide right>
-                                        <ProductCard reverse={ind % 2} title={elem.title} description={elem.description} image={elem.image} key={elem.key} />
+                                    <Slide right  key={elem.key}>
+                                        <ProductCard reverse={ind % 2} title={elem.title} description={elem.description} image={elem.image}/>
                                     </Slide>
 
                             )
