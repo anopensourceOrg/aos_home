@@ -4,7 +4,7 @@ const useStyles = makeStyles({
     card: {
         borderRadius: '20px',
         width: '300px',
-        height: '200px',
+        height: '250px',
         border: '1px solid #35096a',
         margin: '20px',
         boxShadow: '0px 0px 10px 1px #1118',

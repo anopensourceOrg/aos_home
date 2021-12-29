@@ -5,10 +5,10 @@ const useStyles = makeStyles({
     footer:{
         background:"#333",
         color:"#fff",
-        fontSize:"1.1rem",
-        padding:"20px",
+        fontSize:"1.0rem",
+        padding:"20px 5px",
         display:"grid",
-        gridTemplateColumns: `repeat(auto-fill,minmax(400px,1fr))`,
+        gridTemplateColumns: `repeat(auto-fill,minmax(250px,1fr))`,
         '& ul':{
             listStyle:"none",
             textAlign:"left",

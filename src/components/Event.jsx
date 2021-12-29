@@ -24,7 +24,7 @@ const useStyles = makeStyles({
         '& img': {
             aspectRatio: "1",
             objectFit: "contain",
-            maxHeight: "300px"
+            maxHeight: "300px",
         }
     },
     btn: {
