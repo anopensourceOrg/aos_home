@@ -1,4 +1,5 @@
 import video from "../images/video.mp4";
+import thumbnail from "../images/thumbnail.png"
 import { makeStyles } from "@mui/styles";
 import Slide from "react-reveal/Slide";
 const useStyles = makeStyles({
@@ -67,7 +68,7 @@ const Description = () => {
     return (
         <div className={classes.description}>
             <div>
-                <video src={video} autoPlay muted loop preload="metadata" />
+                <video src={video} autoPlay muted loop preload="metadata" poster={thumbnail}/>
             </div>
             <div className={classes.information}>
                 <Slide right>

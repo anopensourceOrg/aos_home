@@ -66,8 +66,8 @@ const Event = () => {
                     Having a real-world project with trending technology is something which every developers want and can make their resume stand-out from others, but creating it from scratch alone is a difficult and tedious task.
                     <strong> InherenIdea </strong> is being organized to solve this problem and give developers a dream hands-on on the real world projects under the guidance with a community which will boost out their creativity and skills.
                     <Container style={{ display: "flex", justifyContent: "space-around",marginTop:"10px" , flexWrap:"wrap"}}>
-                        <button className={classes.btn}>Know More &gt;</button>
-                        <button className={classes.btn}>Register now &gt;</button>
+                        <a href="https://inherenidea.anopensource.com"><button className={classes.btn}>Know More &gt;</button></a>
+                        <a href="https://forms.gle/pBABTAXc6ugVNtwK8"><button className={classes.btn}>Register now &gt;</button></a>
                     </Container>
                 </p>
             </div>
