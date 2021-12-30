@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bf5bfbb.css",
+    "main.js": "/static/js/main.aaea461a.js",
+    "static/js/27.a82c1aa5.chunk.js": "/static/js/27.a82c1aa5.chunk.js",
+    "static/media/bg6.jpg": "/static/media/bg6.60f07fab59f4538f9b9a.jpg",
+    "static/media/video.mp4": "/static/media/video.0b47981d0cf75f64f3bc.mp4",
+    "static/media/thumbnail.png": "/static/media/thumbnail.be131daebc59b08d6e78.png",
+    "static/media/portfolio.jpg": "/static/media/portfolio.d144c4bb0eb379738c8f.jpg",
+    "static/media/event.jpg": "/static/media/event.2b6c8530a41ef5ef6f20.jpg",
+    "static/media/landing.jpg": "/static/media/landing.df62f52061f00917af6b.jpg",
+    "static/media/ecom.jpg": "/static/media/ecom.c615640f9bd866187e1d.jpg",
+    "static/media/management.jpg": "/static/media/management.4beb01c0e1ab775ce823.jpg",
+    "static/media/bg3.png": "/static/media/bg3.80be8b0ec5d46d2fd7d2.png",
+    "static/media/homescreen2.jpg": "/static/media/homescreen2.a8bddcb63d7002732078.jpg",
+    "static/media/inherenidea.png": "/static/media/inherenidea.acea7f6d6c1f04a2ecc5.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.0bf5bfbb.css",
+    "static/js/main.aaea461a.js"
+  ]
+}
